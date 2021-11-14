@@ -2,6 +2,7 @@
     function Management()
 {
     var write=document.getElementById("Management");
+    write.style.visibility="visible";
     write.style.color="limegreen";
     var write1=document.getElementById("Science");
     write1.style.visibility="hidden";
