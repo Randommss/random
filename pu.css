@@ -1,0 +1,25 @@
+
+.A
+{
+    width:400px;
+    background-color: white;
+    display:table-cell;
+    cursor:pointer;
+    padding:15px;
+    height:46px;
+    margin:4px;
+}
+.A:hover
+{
+    color:white;
+    background-color: red;
+}
+.B
+{
+    border:blue 2px solid;
+    width:700px;
+    float:right;
+    padding:5px;
+   
+    }
+    
