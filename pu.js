@@ -1,26 +1,24 @@
-var p=document.getElementById('K');
 function Management()
 {
-if(p.textContent.includes('Management'))
+    var write=document.getElementById("Management");
+    write.style.color="limegreen";
+    var write1=document.getElementById("Science");
+    write1.style.visibility="hidden";
+    var write2=document.getElementById("Health");
+    write2.style.visibility="hidden";
+    var write3=document.getElementById("Humanities");
+    write3.style.visibility="hidden";
+}
+function Science()
 {
-    document.getElementById('Management');
-    p.style.color="green";
+    var write1=document.getElementById("Science");
+    write1.style.color="red";
+    var write=document.getElementById("Management");
+    write.style.visibility="hidden";
+    var write2=document.getElementById("Health");
+    write2.style.visibility="hidden";
+    var write3=document.getElementById("Humanities");
+    write3.style.visibility="hidden";
 }
-else
-{
-    p.style.visibility="hidden";
-}
-}
-var p=document.getElementById('Technology');
-function Technology()
-{
-if(p.textContent.includes('Technology'))
-{
-    document.getElementById('Technology');
-    p.style.color="red";
-}
-else
-{
-    p.style.color="grey";
-}
-}
+
+
