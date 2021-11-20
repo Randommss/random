@@ -3,7 +3,6 @@
 {
     var write=document.getElementById("Management");
     write.style.visibility="visible";
-    write.style.color="limegreen";
     var write1=document.getElementById("Science");
     write1.style.visibility="hidden";
     var write2=document.getElementById("Health");
@@ -16,7 +15,7 @@
     var write4=document.getElementById("Management");
     write4.style.visibility="hidden";
     var write5=document.getElementById("Science");
-    write5.style.color="limegreen";
+    write5.style.visibility="visible";
     var write6=document.getElementById("Health");
     write6.style.visibility="hidden";
     var write7=document.getElementById("Humanities");
@@ -29,7 +28,7 @@
     var write9=document.getElementById("Science");
     write9.style.visibility="hidden";
     var write10=document.getElementById("Health");
-    write10.style.color="limegreen";
+    write10.style.visibility="visible";
     var write11=document.getElementById("Humanities");
     write11.style.visibility="hidden";
 }
@@ -42,8 +41,9 @@
     var write14=document.getElementById("Health");
     write14.style.visibility="hidden";
     var write15=document.getElementById("Humanities");
-    write15.style.color="limegreen";
+    write15.style.visibility="visible";
 }
+
 
 
 
